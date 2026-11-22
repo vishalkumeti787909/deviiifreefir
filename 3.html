@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        table,tr,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+        <header>
+        <h1>Threadco</h1>
+        <p><em>wear the code.live the street</em></p>
+        <nav>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="3.html">products</a></li>
+            <li><a href="">product details</a></li>
+            <li><a href="2w.html">contact</a></li>
+            <li><a href="">cart(0)</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>the catalogue</h2>
+            <p>fresh drops every friday<strong>limited stocks.no restocksever.</strong></p>
+            <p>showing <strong>8 products</strong></p>
+        </section>
+
+        <section>
+            <h2>filter by</h2>
+            <h3>category</h3>
+            <ul>
+                <li>
+                    <input type="checkbox" id="t-shirt">
+                    <label for="t-shirt">t-shirt</label></li>
+                <li>
+                    <input type="checkbox" id="t-shirt1">
+                    <label for="t-shirt1">neck t-shirt</label></li>
+                <li>
+                    <input type="checkbox" id="t-shirt2">
+                    <label for="t-shirt2">shoes</label></li>
+                <li>
+                    <input type="checkbox" id="t-shirt3">
+                    <label for="t-shirt3"> caps</label></li>
+                <li>
+                    <input type="checkbox" id="t-shirt4">
+                    <label for="t-shirt4">i phone</label></li>
+            
+            </ul>
+            <h3>price range(₹)</h3>
+
+            <label for="min">min:</label>
+            <input type="number" name="min" id="min" min="0" placeholder="1">
+            <br>
+            <label for="max">max:</label>
+            <input type="number" name="max" id="max" min="10" placeholder="10">
+
+            <h3>short by </h3>
+            <select name="short-by" id="short-by">
+                <option value="">most popular</option>
+                <option value="">price: high to low</option>
+                <option value="">price: low to high</option>
+                <option value="">newest first</option>
+            </select>
+            
+            <br><br>
+            <button>apply filtrs</button>
+            <button>clear all</button>
+
+
+
+        </section>
+        <section>
+            <h2>all products</h2>
+             <article>
+                <figure>
+                    <img src="https://rukminim1.flixcart.com/image/1920/1920/xif0q/t-shirt/b/n/a/l-zy-gym-believe-skyblue-l-zyvok-original-imahpdfmvfhtnyh7.jpeg?q=90" width="400" height="500">
+                    <figcaption>oversized drop tee vol.3</figcaption>
+                </figure>
+                <h3>oversized drop tee vol</h3>
+                <p>category: t-shirts</p>
+                <p>price: ₹<strong>799 </strong> <s>₹ 1199</s></p>
+                <p><mark>33% off</mark></p>
+                <a href="">view details</a>
+                <button> add to cart </button>
+            </article>
+<article>
+                <figure>
+                    <img src="https://rukminim1.flixcart.com/image/1920/1920/xif0q/t-shirt/3/7/x/-resized-original-imahpjw7ma59nhz6.jpeg?q=90" width="400" height="500">
+                    <figcaption>men solid round neck t shirt</figcaption>
+                </figure>
+                <h3>men solid round neck t shirt</h3>
+                <p>category: t-shirts</p>
+                <p>price: ₹<strong>599 </strong> <s>₹ 999</s></p>
+                <p><mark>36% off</mark></p>
+                <a href="">view details</a>
+                <button> add to cart </button>
+            </article>
+<article>
+                <figure>
+                    <img src="https://rukminim1.flixcart.com/image/1920/1920/xif0q/shoe/1/t/z/8-tarzan-11-8-asian-white-mustard-watermarked-original-imahj3jyf6hbdex3.jpeg?q=90" width="400" height="500">
+                    <figcaption>tarzen-11 sneakers</figcaption>
+                </figure>
+                <h3>tarzen-11 sneakers</h3>
+                <p>category: sneakers</p>
+                <p>price: ₹<strong>399 </strong> <s>₹ 860</s></p>
+                <p><mark>50% off</mark></p>
+                <a href="">view details</a>
+                <button> add to cart </button>
+            </article>
+        
+<article>
+                <figure>
+                    <img src="https://rukminim1.flixcart.com/image/1920/1920/xif0q/cap/m/y/l/free-mj-ny-cap-m-john-s-resized-original-imahf2rmrgzhgqth.jpeg?q=90" width="400" height="500">
+                    <figcaption>branded solid cap</figcaption>
+                </figure>
+                <h3>branded solid cap</h3>
+                <p>category:denim caps</p>
+                <p>price: ₹<strong>199 </strong> <s>₹ 209</s></p>
+                <p><mark>10% off</mark></p>
+                <a href="">view details</a>
+                <button> add to cart </button>
+            </article>
+        </section>
+        <section>
+            <h2>compare our bestsellers</h2>
+            <p>not sure which pic ? here is a side by side breakdown.</p>
+            <table>
+                <tr>
+                    <th colspan="4">product compare - top 3 picks</th>
+                </tr>
+                <tr>
+                    <th>feature</th>
+                    <th>drop tee vol.3</th>
+                    <th>street hoodue</th>
+                    <th>utility cargo</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">pricing</th>
+                    <td>₹ 799</td>
+                    <td>₹ 799</td>
+                    <td>₹ 799</td>
+                </tr>
+                <tr>
+                    <td><s>₹ 1199</s></td>
+                    <td><s>₹ 1199</s></td>
+                    <td><s>₹ 1199</s></td>
+                </tr>
+                <tr>
+                    <th>material</th>
+                    <td>100% cotton</td>
+                    <td>80% cotton, 20% polyster</td>
+                    <td>100% cotton twill</td>
+                </tr>
+                <tr>
+                    <th>available size</th>
+                    <td>s m l xl xxl </td>
+                    <td>s m l xl</td>
+                    <td>28 30 32 34 36</td>
+                </tr>
+                <tr>
+                    <th>rating</th>
+                    <td>⭐⭐⭐⭐⭐(4.9)</td>
+                    <td>⭐⭐⭐⭐⭐(4.9)</td>
+                    <td>⭐⭐⭐⭐⭐(4.9)</td>
+                </tr>
+                <tr>
+                    <th>free delivery</th>
+                    <td>yes (above ₹ 499)</td>
+                    <td>yes (above ₹ 499)</td>
+                    <td>yes (above ₹ 499)</td>
+                </tr>
+                <tr>
+                    <th>best for </th>
+                    <td>everyday wear </td>
+                    <td>winter & layering</td>
+                    <td>street & utility style</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+    <footer>
+        <p>© 2025 threadco . all nights reserved.</p>
+        <p><em>wear the code.live the street</em></p>
+         <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">products</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">privacy policy</a></li>
+            <li><a href="">term and conditions</a></li>
+        </ul>
+        <p><a href="">instagram</a> | <a href="">twitter</a> | <a href="">youtube</a></p>
+    </footer>
+</body>
+</html>

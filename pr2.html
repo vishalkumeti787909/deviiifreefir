@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Flexbox Tutorial</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 40px;
+        }
+
+        /* BASIC FLEXBOX */
+
+        .container {
+            display: flex;
+            background: lightgray;
+            padding: 10px;
+            gap: 10px;
+        }
+
+        .box {
+            background: tomato;
+            padding: 30px;
+            color: white;
+            text-align: center;
+        }
+
+
+        /* FLEX DIRECTION */
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+
+        /* JUSTIFY CONTENT */
+
+        .justify {
+            display: flex;
+            justify-content: space-between;
+            background: lightgray;
+            padding: 10px;
+        }
+
+
+        /* ALIGN ITEMS */
+
+        .align {
+            display: flex;
+            align-items: center;
+            height: 200px;
+            background: lightgray;
+            gap: 10px;
+        }
+
+
+        /* FLEX WRAP */
+
+        .wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .wrap .box {
+            width: 100px;
+        }
+
+
+        /* FLEX GROW */
+
+        .grow {
+            display: flex;
+            gap: 10px;
+        }
+
+        .grow .box {
+            flex-grow: 1;
+        }
+
+        .grow .box:first-child {
+            flex-grow: 2;
+        }
+
+
+        /* FLEX DIRECTION REVERSE */
+
+        .reverse {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS FLEXBOX</h1>
+
+
+    <h2>1. Display Flex</h2>
+
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+
+    <h2>2. Flex Direction Row</h2>
+
+    <div class="row">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+
+
+    <h2>3. Flex Direction Column</h2>
+
+    <div class="column">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+
+
+    <h2>4. Justify Content</h2>
+
+    <div class="justify">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+
+
+    <h2>5. Align Items</h2>
+
+    <div class="align">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+
+
+    <h2>6. Flex Wrap</h2>
+
+    <div class="wrap">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+
+
+    <h2>7. Flex Grow</h2>
+
+    <div class="grow">
+        <div class="box">Grow 2</div>
+        <div class="box">Grow 1</div>
+        <div class="box">Grow 1</div>
+    </div>
+
+
+    <h2>8. Row Reverse</h2>
+
+    <div class="reverse">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+
+</body>
+</html>
